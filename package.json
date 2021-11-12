@@ -1,0 +1,22 @@
+{
+  "name": "@browserql/codegen-enums-to-array",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/browserql/codegen-enums-to-array"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@browserql/fpql": "^3.0.0"
+  },
+  "peerDependencies": {
+    "graphql": "^16.0.1"
+  }
+}
