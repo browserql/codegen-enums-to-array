@@ -1,6 +1,6 @@
 {
   "name": "@browserql/codegen-enums-to-array",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "handler.js",
   "license": "MIT",
   "scripts": {
@@ -11,6 +11,8 @@
     "url": "https://github.com/browserql/codegen-enums-to-array"
   },
   "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "semver": "^7.3.5",
     "typescript": "^4.4.4"
   },
   "dependencies": {

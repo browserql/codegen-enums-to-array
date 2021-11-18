@@ -1,6 +1,6 @@
-import { DocumentNode, GraphQLSchema, parse } from 'graphql';
 import getEnumerations from '@browserql/fpql/get/enumerations';
 import getName from '@browserql/fpql/get/name';
+import { DocumentNode, GraphQLSchema } from 'graphql';
 
 interface Schema {
   source: string
